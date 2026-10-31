@@ -1,0 +1,21 @@
+SalesLens timeit microbenchmarks (best of 5 repeats)
+
+Master-data lookup near end of 3,000 records
+  baseline : 118.280 us/op
+  optimized: 0.032 us/op
+  speedup  : 3643.53x
+
+Membership test in 5,000 identifiers
+  baseline : 50.239 us/op
+  optimized: 0.023 us/op
+  speedup  : 2165.48x
+
+Aggregate 5,000 values into 500 buckets
+  baseline : 43220.422 us/op
+  optimized: 455.291 us/op
+  speedup  : 94.93x
+
+Parse ISO timestamp / derive month
+  baseline : 5.922 us/op
+  optimized: 0.230 us/op
+  speedup  : 25.77x

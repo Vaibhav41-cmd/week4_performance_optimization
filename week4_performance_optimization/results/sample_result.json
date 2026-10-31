@@ -1,0 +1,240 @@
+{
+  "rows_read": 5000,
+  "valid_rows": 4995,
+  "invalid_rows": 5,
+  "order_count": 2821,
+  "customer_count": 1697,
+  "total_units": 8518,
+  "gross_revenue": 53695644.6,
+  "discount_amount": 3898377.48,
+  "net_revenue": 49797267.12,
+  "average_order_value": 17652.35,
+  "monthly_revenue": {
+    "2025-01": 5135095.15,
+    "2025-02": 4058315.6,
+    "2025-03": 4186083.98,
+    "2025-04": 3955260.69,
+    "2025-05": 3912862.58,
+    "2025-06": 3470754.79,
+    "2025-07": 3748034.95,
+    "2025-08": 4605097.34,
+    "2025-09": 4568211.93,
+    "2025-10": 4040076.99,
+    "2025-11": 3536406.87,
+    "2025-12": 4581066.25
+  },
+  "revenue_by_category": {
+    "Automotive": 5358666.43,
+    "Books": 940431.13,
+    "Electronics": 16522911.25,
+    "Fashion": 1083580.17,
+    "Footwear": 2792527.25,
+    "Grocery": 460430.05,
+    "Home Appliances": 18122136.09,
+    "Personal Care": 634754.35,
+    "Sports": 2187345.51,
+    "Toys": 1694484.87
+  },
+  "category_shares": {
+    "Automotive": 0.1076,
+    "Books": 0.0189,
+    "Electronics": 0.3318,
+    "Fashion": 0.0218,
+    "Footwear": 0.0561,
+    "Grocery": 0.0092,
+    "Home Appliances": 0.3639,
+    "Personal Care": 0.0127,
+    "Sports": 0.0439,
+    "Toys": 0.034
+  },
+  "revenue_by_region": {
+    "Central": 8023985.32,
+    "East": 7403435.19,
+    "North": 7491389.89,
+    "North-East": 9262405.46,
+    "South": 9575639.71,
+    "West": 8040411.55
+  },
+  "top_products": [
+    {
+      "product_id": "P00006",
+      "product_name": "Prime Electronics Max 6",
+      "units": 93,
+      "revenue": 3298800.38
+    },
+    {
+      "product_id": "P00013",
+      "product_name": "Urban Home Max 13",
+      "units": 62,
+      "revenue": 1715904.68
+    },
+    {
+      "product_id": "P00060",
+      "product_name": "Pixel Electronics Kit 60",
+      "units": 30,
+      "revenue": 1302891.31
+    },
+    {
+      "product_id": "P00056",
+      "product_name": "Turbo Electronics Essential 56",
+      "units": 28,
+      "revenue": 1273865.51
+    },
+    {
+      "product_id": "P00024",
+      "product_name": "Urban Home Kit 24",
+      "units": 39,
+      "revenue": 985929.75
+    },
+    {
+      "product_id": "P00089",
+      "product_name": "Orion Electronics Lite 89",
+      "units": 30,
+      "revenue": 920201.39
+    },
+    {
+      "product_id": "P00200",
+      "product_name": "Lumina Electronics Kit 200",
+      "units": 20,
+      "revenue": 910375.65
+    },
+    {
+      "product_id": "P00003",
+      "product_name": "Aero Automotive Edition 3",
+      "units": 135,
+      "revenue": 816521.76
+    },
+    {
+      "product_id": "P00232",
+      "product_name": "Atlas Electronics Pro 232",
+      "units": 19,
+      "revenue": 788296.6
+    },
+    {
+      "product_id": "P00106",
+      "product_name": "Lumina Home Pro 106",
+      "units": 28,
+      "revenue": 770107.89
+    }
+  ],
+  "top_customers": [
+    {
+      "customer_id": "C000001",
+      "customer_name": "Ananya Mehta",
+      "orders": 28,
+      "revenue": 817224.54
+    },
+    {
+      "customer_id": "C000045",
+      "customer_name": "Ishita Shah",
+      "orders": 5,
+      "revenue": 369440.43
+    },
+    {
+      "customer_id": "C000010",
+      "customer_name": "Meera Iyer",
+      "orders": 12,
+      "revenue": 327917.88
+    },
+    {
+      "customer_id": "C001397",
+      "customer_name": "Ananya Kulkarni",
+      "orders": 4,
+      "revenue": 275271.3
+    },
+    {
+      "customer_id": "C000041",
+      "customer_name": "Rahul Shah",
+      "orders": 2,
+      "revenue": 264883.44
+    },
+    {
+      "customer_id": "C000337",
+      "customer_name": "Diya Iyer",
+      "orders": 2,
+      "revenue": 260500.43
+    },
+    {
+      "customer_id": "C000002",
+      "customer_name": "Ishita Kulkarni",
+      "orders": 10,
+      "revenue": 258285.22
+    },
+    {
+      "customer_id": "C000020",
+      "customer_name": "Nikhil Deshmukh",
+      "orders": 8,
+      "revenue": 238564.14
+    },
+    {
+      "customer_id": "C001433",
+      "customer_name": "Vihaan Deshmukh",
+      "orders": 3,
+      "revenue": 233271.95
+    },
+    {
+      "customer_id": "C000046",
+      "customer_name": "Priya Mehta",
+      "orders": 7,
+      "revenue": 232641.92
+    }
+  ],
+  "repeat_customer_count": 700,
+  "repeat_customer_rate": 0.4125,
+  "high_value_customer_count": 983,
+  "duplicate_transaction_ids": 9,
+  "duplicate_transaction_rows": 9,
+  "top_co_purchase_pairs": [
+    {
+      "product_a": "P00001",
+      "product_b": "P00003",
+      "count": 8
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00002",
+      "count": 7
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00008",
+      "count": 6
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00009",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00020",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00021",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00026",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00071",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00102",
+      "count": 4
+    },
+    {
+      "product_a": "P00001",
+      "product_b": "P00107",
+      "count": 4
+    }
+  ],
+  "best_month": "2025-01"
+}

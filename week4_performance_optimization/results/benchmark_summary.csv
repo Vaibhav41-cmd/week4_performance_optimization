@@ -1,0 +1,4 @@
+rows,baseline_median_s,optimized_median_s,speedup_median_x,speedup_conservative_x,time_saved_percent,baseline_peak_memory_mib,optimized_peak_memory_mib,memory_change_percent
+2000,0.404521,0.021115,19.158,16.941,94.78,4.308,1.908,-55.71
+5000,1.725098,0.043075,40.049,37.136,97.50,8.678,3.462,-60.11
+10000,6.177985,0.077352,79.869,73.978,98.75,15.758,5.828,-63.02

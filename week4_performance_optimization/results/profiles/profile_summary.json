@@ -1,0 +1,93 @@
+{
+  "rows": 10000,
+  "seed": 42,
+  "data_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_10000",
+  "parity": "PASS",
+  "baseline": {
+    "engine": "baseline",
+    "text_profile": "/home/user/week4_performance_optimization/results/profiles/baseline_cprofile.txt",
+    "binary_profile": "/home/user/week4_performance_optimization/results/profiles/baseline.prof",
+    "total_calls": 13833156,
+    "primitive_calls": 13833002,
+    "profiled_seconds": 10.228626708999997,
+    "valid_rows": 9990,
+    "net_revenue": 102073944.29
+  },
+  "optimized": {
+    "engine": "optimized",
+    "text_profile": "/home/user/week4_performance_optimization/results/profiles/optimized_cprofile.txt",
+    "binary_profile": "/home/user/week4_performance_optimization/results/profiles/optimized.prof",
+    "total_calls": 322723,
+    "primitive_calls": 322711,
+    "profiled_seconds": 0.19296290000000008,
+    "valid_rows": 9990,
+    "net_revenue": 102073944.29
+  },
+  "call_reduction_percent": 97.66703274364866,
+  "microbenchmarks": [
+    {
+      "operation": "Master-data lookup near end of 3,000 records",
+      "baseline": {
+        "statement": "find(records, 'product_id', wanted)",
+        "number": 2000,
+        "best_total_seconds": 0.2365608530001282,
+        "microseconds_per_operation": 118.2804265000641
+      },
+      "optimized": {
+        "statement": "index.get(wanted)",
+        "number": 50000,
+        "best_total_seconds": 0.0016231580000294343,
+        "microseconds_per_operation": 0.03246316000058869
+      },
+      "speedup": 3643.527817314125
+    },
+    {
+      "operation": "Membership test in 5,000 identifiers",
+      "baseline": {
+        "statement": "needle in identifiers",
+        "number": 5000,
+        "best_total_seconds": 0.25119496499996785,
+        "microseconds_per_operation": 50.23899299999357
+      },
+      "optimized": {
+        "statement": "needle in identifier_set",
+        "number": 100000,
+        "best_total_seconds": 0.002319994000117731,
+        "microseconds_per_operation": 0.02319994000117731
+      },
+      "speedup": 2165.4794364745826
+    },
+    {
+      "operation": "Aggregate 5,000 values into 500 buckets",
+      "baseline": {
+        "statement": "list_bucket_total()",
+        "number": 5,
+        "best_total_seconds": 0.21610210799985907,
+        "microseconds_per_operation": 43220.421599971814
+      },
+      "optimized": {
+        "statement": "dict_bucket_total()",
+        "number": 50,
+        "best_total_seconds": 0.02276454399998329,
+        "microseconds_per_operation": 455.2908799996658
+      },
+      "speedup": 94.92924962609298
+    },
+    {
+      "operation": "Parse ISO timestamp / derive month",
+      "baseline": {
+        "statement": "datetime.strptime('2025-06-15T10:30:00', '%Y-%m-%dT%H:%M:%S')",
+        "number": 5000,
+        "best_total_seconds": 0.02960871799996312,
+        "microseconds_per_operation": 5.921743599992624
+      },
+      "optimized": {
+        "statement": "datetime.fromisoformat('2025-06-15T10:30:00'); '2025-06-15T10:30:00'[:7]",
+        "number": 10000,
+        "best_total_seconds": 0.0022983029998613347,
+        "microseconds_per_operation": 0.22983029998613347
+      },
+      "speedup": 25.765721927656642
+    }
+  ]
+}

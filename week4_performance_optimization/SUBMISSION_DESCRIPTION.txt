@@ -1,0 +1,16 @@
+PASTE THE TEXT BELOW INTO THE "Write description for the report" BOX (255 words)
+================================================================================
+
+This report presents my Week 4 deliverable for the Junior Python Developer internship, focused on performance optimization in Python applications. I developed SalesLens, a standard-library retail transaction analytics application that joins product and customer master data with transaction line items and calculates revenue trends, category and regional performance, top products and customers, repeat-customer behaviour, duplicate transaction IDs and frequently co-purchased products. A deterministic data generator makes the submission completely self-contained and allows every experiment to be reproduced from a fixed seed.
+
+I first implemented and preserved a correct baseline version using repeated linear master-data searches, list-backed aggregation buckets, list membership for distinct counting, repeated list.count scans for duplicates, nested list grouping for co-purchases and several passes over retained transaction dictionaries. Baseline performance was established through cProfile, repeated wall- and CPU-time benchmarks and tracemalloc memory measurements at 2,000, 5,000 and 10,000 transaction rows. Profiling identified master lookup, co-purchase grouping, duplicate detection and bucket aggregation as the dominant bottlenecks.
+
+The optimized version indexes products and customers once in dictionaries, streams transactions in a single pass, uses defaultdict, Counter and sets for aggregation and distinct operations, groups co-purchases with hash-based sets, validates dates more efficiently and selects top results with heapq.nlargest. At 10,000 rows, median runtime improved from 6.1780 seconds to 0.0774 seconds, a 79.87× speedup, while peak traced memory fell by 63.0 percent and cProfile function calls fell by 97.7 percent. Seventeen automated tests, a hand-calculated oracle, exact baseline-versus-optimized parity checks and an optimized-only 100,000-row run verify that the faster implementation preserves functionality while scaling substantially better.
+
+================================================================================
+Also fill these fields on the form:
+  * Upload your report file  ->  Week4_Performance_Optimization_Report.docx
+  * GitHub project URL       ->  push the contents of week4_performance_optimization
+                                 as the repository root
+  * Quick verification       ->  python -m pytest -v
+                                 python run.py --engine optimized --data-dir data/sample

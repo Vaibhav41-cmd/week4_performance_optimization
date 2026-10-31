@@ -1,0 +1,38 @@
+$ python run.py --engine optimized --data-dir data/sample --generate --rows 5000 --output results/sample_result.json
+Generated 5000 transaction rows in data/sample
+SalesLens transaction analytics
+-------------------------------
+Rows read: 5000 (valid 4995, invalid 5)
+Orders: 2821 | Customers: 1697 | Units: 8518
+Net revenue: INR 49,797,267.12 | Average order value: INR 17,652.35
+Repeat customers: 700 (41.25%)
+Duplicate transaction IDs: 9 (9 extra rows)
+Best month: 2025-01
+
+Top products:
+ 1. P00006 Prime Electronics Max 6 - INR 3,298,800.38 (93 units)
+ 2. P00013 Urban Home Max 13 - INR 1,715,904.68 (62 units)
+ 3. P00060 Pixel Electronics Kit 60 - INR 1,302,891.31 (30 units)
+ 4. P00056 Turbo Electronics Essential 56 - INR 1,273,865.51 (28 units)
+ 5. P00024 Urban Home Kit 24 - INR 985,929.75 (39 units)
+ 6. P00089 Orion Electronics Lite 89 - INR 920,201.39 (30 units)
+ 7. P00200 Lumina Electronics Kit 200 - INR 910,375.65 (20 units)
+ 8. P00003 Aero Automotive Edition 3 - INR 816,521.76 (135 units)
+ 9. P00232 Atlas Electronics Pro 232 - INR 788,296.60 (19 units)
+10. P00106 Lumina Home Pro 106 - INR 770,107.89 (28 units)
+
+Top customers:
+ 1. C000001 Ananya Mehta - INR 817,224.54 (28 orders)
+ 2. C000045 Ishita Shah - INR 369,440.43 (5 orders)
+ 3. C000010 Meera Iyer - INR 327,917.88 (12 orders)
+ 4. C001397 Ananya Kulkarni - INR 275,271.30 (4 orders)
+ 5. C000041 Rahul Shah - INR 264,883.44 (2 orders)
+ 6. C000337 Diya Iyer - INR 260,500.43 (2 orders)
+ 7. C000002 Ishita Kulkarni - INR 258,285.22 (10 orders)
+ 8. C000020 Nikhil Deshmukh - INR 238,564.14 (8 orders)
+ 9. C001433 Vihaan Deshmukh - INR 233,271.95 (3 orders)
+10. C000046 Priya Mehta - INR 232,641.92 (7 orders)
+
+Engine: optimized | Elapsed: 0.0449 s
+JSON result written to results/sample_result.json
+[exit_code=0]

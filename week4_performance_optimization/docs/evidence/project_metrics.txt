@@ -1,0 +1,27 @@
+SalesLens project metrics (AST-based)
+
+[saleslens]
+  saleslens/__init__.py: 16 lines, 0 functions, 0 classes
+  saleslens/baseline.py: 355 lines, 12 functions, 0 classes
+  saleslens/data_generator.py: 231 lines, 5 functions, 0 classes
+  saleslens/optimized.py: 321 lines, 8 functions, 1 classes
+  TOTAL saleslens: 4 files, 923 lines, 25 functions, 1 classes
+
+[tests]
+  tests/__init__.py: 1 lines, 0 functions, 0 classes
+  tests/conftest.py: 56 lines, 2 functions, 0 classes
+  tests/test_correctness.py: 156 lines, 5 functions, 0 classes
+  tests/test_parity_and_generator.py: 54 lines, 4 functions, 0 classes
+  TOTAL tests: 4 files, 267 lines, 11 functions, 0 classes
+
+[tools]
+  tools/generate_evidence.py: 443 lines, 12 functions, 0 classes
+  tools/run_profiling.py: 222 lines, 5 functions, 0 classes
+  TOTAL tools: 2 files, 665 lines, 17 functions, 0 classes
+
+[root scripts]
+  benchmark.py: 336 lines, 8 functions, 0 classes
+  run.py: 49 lines, 2 functions, 0 classes
+  TOTAL root scripts: 2 files, 385 lines, 10 functions, 0 classes
+
+PROJECT TOTAL: 12 Python files, 2240 lines, 63 functions, 1 classes

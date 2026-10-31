@@ -1,0 +1,501 @@
+product_id,product_name,category,unit_price
+P00001,Turbo Home Pack 1,Home Appliances,1654.37
+P00002,Urban Footwear Edition 2,Footwear,1406.00
+P00003,Aero Automotive Edition 3,Automotive,6616.87
+P00004,Aero Footwear Pack 4,Footwear,2011.30
+P00005,Atlas Toys Pro 5,Toys,1793.18
+P00006,Prime Electronics Max 6,Electronics,38180.56
+P00007,Vertex Personal Lite 7,Personal Care,488.02
+P00008,Urban Home Lite 8,Home Appliances,3970.91
+P00009,Nova Personal Essential 9,Personal Care,944.22
+P00010,Orion Toys Edition 10,Toys,673.34
+P00011,Flex Toys Pack 11,Toys,1313.08
+P00012,Lumina Home Pro 12,Home Appliances,2366.19
+P00013,Urban Home Max 13,Home Appliances,30050.87
+P00014,Flex Grocery Kit 14,Grocery,472.09
+P00015,Turbo Personal Edition 15,Personal Care,596.38
+P00016,Lumina Automotive Kit 16,Automotive,9706.19
+P00017,Lumina Books Lite 17,Books,850.99
+P00018,Nova Electronics Lite 18,Electronics,12222.36
+P00019,Vertex Sports Lite 19,Sports,2969.31
+P00020,Orion Footwear Essential 20,Footwear,4759.35
+P00021,Lumina Fashion Pro 21,Fashion,1543.94
+P00022,Orion Automotive Lite 22,Automotive,6711.29
+P00023,Eco Footwear Essential 23,Footwear,6981.62
+P00024,Urban Home Kit 24,Home Appliances,26646.75
+P00025,Zen Fashion Edition 25,Fashion,4021.77
+P00026,Atlas Sports Pro 26,Sports,4062.55
+P00027,Aero Toys Edition 27,Toys,3469.96
+P00028,Smart Toys Edition 28,Toys,3052.34
+P00029,Atlas Grocery Series 29,Grocery,454.11
+P00030,Prime Grocery Edition 30,Grocery,971.90
+P00031,Vertex Grocery Kit 31,Grocery,846.37
+P00032,Aero Personal Lite 32,Personal Care,1166.52
+P00033,Flex Books Pro 33,Books,185.03
+P00034,Pixel Footwear Edition 34,Footwear,875.51
+P00035,Eco Books Kit 35,Books,1658.64
+P00036,Prime Books Pro 36,Books,1900.67
+P00037,Zen Toys Pack 37,Toys,3514.25
+P00038,Vertex Toys Pro 38,Toys,3069.01
+P00039,Flex Sports Essential 39,Sports,9952.43
+P00040,Lumina Toys Pack 40,Toys,1914.65
+P00041,Lumina Home Pack 41,Home Appliances,12361.53
+P00042,Nova Electronics Pack 42,Electronics,4477.66
+P00043,Smart Home Edition 43,Home Appliances,31764.36
+P00044,Vivid Toys Pack 44,Toys,1103.42
+P00045,Vivid Toys Pack 45,Toys,701.79
+P00046,Vertex Books Edition 46,Books,1642.87
+P00047,Flex Home Max 47,Home Appliances,23336.21
+P00048,Nova Sports Edition 48,Sports,4882.44
+P00049,Smart Electronics Edition 49,Electronics,20727.44
+P00050,Atlas Footwear Kit 50,Footwear,1744.34
+P00051,Atlas Sports Pack 51,Sports,2160.49
+P00052,Urban Home Series 52,Home Appliances,15954.07
+P00053,Pixel Toys Pack 53,Toys,3375.90
+P00054,Vivid Fashion Pack 54,Fashion,2209.15
+P00055,Prime Sports Max 55,Sports,9062.45
+P00056,Turbo Electronics Essential 56,Electronics,49279.13
+P00057,Vivid Grocery Kit 57,Grocery,442.78
+P00058,Nova Footwear Series 58,Footwear,2427.60
+P00059,Vivid Personal Kit 59,Personal Care,179.03
+P00060,Pixel Electronics Kit 60,Electronics,48077.17
+P00061,Lumina Home Max 61,Home Appliances,21149.20
+P00062,Lumina Home Series 62,Home Appliances,33001.59
+P00063,Smart Automotive Pro 63,Automotive,1687.76
+P00064,Smart Footwear Pack 64,Footwear,4852.22
+P00065,Classic Grocery Essential 65,Grocery,416.54
+P00066,Pixel Personal Series 66,Personal Care,1399.63
+P00067,Urban Books Edition 67,Books,1298.14
+P00068,Turbo Toys Kit 68,Toys,1008.99
+P00069,Lumina Personal Lite 69,Personal Care,1332.21
+P00070,Classic Grocery Series 70,Grocery,187.07
+P00071,Urban Toys Kit 71,Toys,1336.64
+P00072,Urban Grocery Kit 72,Grocery,146.27
+P00073,Vertex Grocery Lite 73,Grocery,306.61
+P00074,Turbo Footwear Essential 74,Footwear,4967.73
+P00075,Nova Grocery Edition 75,Grocery,907.74
+P00076,Nova Sports Series 76,Sports,8360.74
+P00077,Turbo Personal Kit 77,Personal Care,1178.57
+P00078,Zen Books Series 78,Books,1169.61
+P00079,Eco Home Series 79,Home Appliances,3372.34
+P00080,Eco Personal Max 80,Personal Care,914.51
+P00081,Flex Fashion Series 81,Fashion,495.60
+P00082,Lumina Personal Edition 82,Personal Care,393.11
+P00083,Zen Personal Kit 83,Personal Care,1191.16
+P00084,Prime Footwear Max 84,Footwear,6118.94
+P00085,Smart Electronics Max 85,Electronics,9787.67
+P00086,Urban Footwear Max 86,Footwear,2233.24
+P00087,Lumina Electronics Pack 87,Electronics,43070.07
+P00088,Lumina Books Pack 88,Books,795.87
+P00089,Orion Electronics Lite 89,Electronics,33340.63
+P00090,Turbo Grocery Lite 90,Grocery,868.24
+P00091,Smart Toys Series 91,Toys,1717.78
+P00092,Turbo Home Kit 92,Home Appliances,30793.71
+P00093,Turbo Automotive Series 93,Automotive,14455.75
+P00094,Flex Home Lite 94,Home Appliances,21201.74
+P00095,Urban Sports Max 95,Sports,6218.60
+P00096,Nova Automotive Max 96,Automotive,3255.14
+P00097,Vertex Electronics Lite 97,Electronics,26475.10
+P00098,Smart Sports Lite 98,Sports,1070.75
+P00099,Classic Home Pro 99,Home Appliances,25414.60
+P00100,Classic Sports Kit 100,Sports,3530.36
+P00101,Orion Footwear Kit 101,Footwear,3231.90
+P00102,Orion Automotive Series 102,Automotive,8751.03
+P00103,Zen Grocery Lite 103,Grocery,311.58
+P00104,Vertex Books Essential 104,Books,966.30
+P00105,Classic Fashion Lite 105,Fashion,3395.60
+P00106,Lumina Home Pro 106,Home Appliances,28789.08
+P00107,Eco Footwear Series 107,Footwear,5741.66
+P00108,Vivid Electronics Edition 108,Electronics,12996.28
+P00109,Vertex Books Max 109,Books,915.72
+P00110,Eco Books Series 110,Books,888.36
+P00111,Lumina Home Kit 111,Home Appliances,27420.98
+P00112,Lumina Toys Edition 112,Toys,1964.29
+P00113,Atlas Books Lite 113,Books,395.68
+P00114,Zen Books Essential 114,Books,1282.41
+P00115,Vivid Fashion Essential 115,Fashion,3794.18
+P00116,Turbo Grocery Essential 116,Grocery,759.71
+P00117,Pixel Footwear Pro 117,Footwear,2283.88
+P00118,Smart Footwear Edition 118,Footwear,2265.15
+P00119,Orion Fashion Kit 119,Fashion,1007.90
+P00120,Zen Footwear Lite 120,Footwear,916.49
+P00121,Nova Toys Pack 121,Toys,1969.51
+P00122,Aero Sports Max 122,Sports,4137.98
+P00123,Flex Books Pro 123,Books,159.91
+P00124,Zen Sports Pack 124,Sports,8592.10
+P00125,Zen Books Essential 125,Books,554.93
+P00126,Orion Electronics Kit 126,Electronics,20053.00
+P00127,Aero Books Max 127,Books,1850.15
+P00128,Aero Automotive Edition 128,Automotive,8682.68
+P00129,Atlas Sports Kit 129,Sports,1701.72
+P00130,Smart Electronics Pack 130,Electronics,13746.66
+P00131,Orion Books Pro 131,Books,753.66
+P00132,Pixel Sports Essential 132,Sports,2820.81
+P00133,Nova Electronics Lite 133,Electronics,37701.19
+P00134,Nova Footwear Series 134,Footwear,4724.94
+P00135,Aero Footwear Kit 135,Footwear,1794.84
+P00136,Urban Footwear Pack 136,Footwear,1319.44
+P00137,Flex Books Kit 137,Books,1443.01
+P00138,Urban Automotive Kit 138,Automotive,9304.09
+P00139,Aero Grocery Pro 139,Grocery,139.21
+P00140,Orion Automotive Max 140,Automotive,10320.54
+P00141,Lumina Footwear Edition 141,Footwear,992.98
+P00142,Urban Grocery Series 142,Grocery,854.68
+P00143,Flex Personal Edition 143,Personal Care,844.84
+P00144,Aero Toys Max 144,Toys,2659.66
+P00145,Flex Books Essential 145,Books,344.25
+P00146,Turbo Fashion Essential 146,Fashion,2345.79
+P00147,Turbo Books Lite 147,Books,954.81
+P00148,Pixel Footwear Pro 148,Footwear,5898.75
+P00149,Atlas Books Max 149,Books,600.15
+P00150,Smart Personal Kit 150,Personal Care,139.18
+P00151,Turbo Books Lite 151,Books,541.42
+P00152,Turbo Grocery Series 152,Grocery,883.63
+P00153,Pixel Toys Pack 153,Toys,3801.64
+P00154,Lumina Sports Essential 154,Sports,5089.35
+P00155,Aero Books Edition 155,Books,978.12
+P00156,Lumina Grocery Pro 156,Grocery,248.62
+P00157,Flex Automotive Max 157,Automotive,5849.80
+P00158,Atlas Toys Pro 158,Toys,1456.01
+P00159,Urban Grocery Pack 159,Grocery,277.35
+P00160,Prime Personal Pack 160,Personal Care,266.38
+P00161,Turbo Footwear Pro 161,Footwear,5299.93
+P00162,Classic Home Pack 162,Home Appliances,29274.89
+P00163,Aero Personal Kit 163,Personal Care,350.22
+P00164,Nova Grocery Pro 164,Grocery,78.88
+P00165,Vivid Fashion Edition 165,Fashion,3296.99
+P00166,Vivid Electronics Essential 166,Electronics,29128.15
+P00167,Nova Books Pro 167,Books,779.31
+P00168,Pixel Books Max 168,Books,360.06
+P00169,Nova Books Kit 169,Books,286.05
+P00170,Classic Fashion Edition 170,Fashion,4111.37
+P00171,Zen Footwear Pack 171,Footwear,1268.94
+P00172,Atlas Toys Pro 172,Toys,1644.44
+P00173,Classic Automotive Series 173,Automotive,14854.45
+P00174,Urban Automotive Pack 174,Automotive,14420.58
+P00175,Pixel Footwear Kit 175,Footwear,2219.20
+P00176,Pixel Footwear Kit 176,Footwear,1628.79
+P00177,Vivid Electronics Pro 177,Electronics,21016.36
+P00178,Classic Electronics Essential 178,Electronics,12341.34
+P00179,Turbo Home Pack 179,Home Appliances,24307.56
+P00180,Lumina Sports Kit 180,Sports,1500.85
+P00181,Pixel Grocery Series 181,Grocery,831.87
+P00182,Classic Fashion Essential 182,Fashion,4024.35
+P00183,Classic Home Max 183,Home Appliances,16828.47
+P00184,Vivid Grocery Essential 184,Grocery,517.46
+P00185,Zen Home Lite 185,Home Appliances,21251.85
+P00186,Pixel Automotive Pack 186,Automotive,4129.33
+P00187,Aero Automotive Pro 187,Automotive,9012.28
+P00188,Prime Automotive Essential 188,Automotive,1082.36
+P00189,Turbo Toys Kit 189,Toys,2674.74
+P00190,Vivid Automotive Edition 190,Automotive,6819.33
+P00191,Smart Books Lite 191,Books,792.73
+P00192,Smart Home Max 192,Home Appliances,30133.47
+P00193,Orion Books Series 193,Books,682.20
+P00194,Turbo Books Lite 194,Books,311.91
+P00195,Orion Home Series 195,Home Appliances,33979.32
+P00196,Nova Toys Pack 196,Toys,1954.51
+P00197,Vivid Toys Essential 197,Toys,1573.76
+P00198,Eco Electronics Pro 198,Electronics,10973.35
+P00199,Vivid Books Edition 199,Books,1778.57
+P00200,Lumina Electronics Kit 200,Electronics,48683.19
+P00201,Zen Grocery Edition 201,Grocery,566.01
+P00202,Urban Footwear Essential 202,Footwear,6948.67
+P00203,Eco Home Essential 203,Home Appliances,22950.67
+P00204,Turbo Grocery Max 204,Grocery,525.55
+P00205,Lumina Books Essential 205,Books,1962.45
+P00206,Vertex Toys Kit 206,Toys,748.64
+P00207,Zen Home Lite 207,Home Appliances,10246.66
+P00208,Aero Toys Pro 208,Toys,1214.26
+P00209,Vivid Grocery Kit 209,Grocery,842.33
+P00210,Flex Books Lite 210,Books,1145.37
+P00211,Orion Toys Essential 211,Toys,3097.92
+P00212,Lumina Personal Max 212,Personal Care,1316.44
+P00213,Zen Footwear Series 213,Footwear,6063.08
+P00214,Orion Personal Max 214,Personal Care,1141.59
+P00215,Nova Fashion Kit 215,Fashion,2627.04
+P00216,Smart Toys Edition 216,Toys,3867.34
+P00217,Atlas Books Series 217,Books,333.47
+P00218,Eco Fashion Edition 218,Fashion,2225.90
+P00219,Turbo Books Lite 219,Books,1594.82
+P00220,Pixel Automotive Lite 220,Automotive,10543.22
+P00221,Smart Toys Essential 221,Toys,1643.04
+P00222,Pixel Toys Pack 222,Toys,335.42
+P00223,Pixel Grocery Max 223,Grocery,996.52
+P00224,Urban Home Essential 224,Home Appliances,26803.64
+P00225,Aero Fashion Series 225,Fashion,3560.81
+P00226,Classic Personal Lite 226,Personal Care,1213.60
+P00227,Lumina Personal Max 227,Personal Care,701.96
+P00228,Prime Automotive Kit 228,Automotive,10385.11
+P00229,Orion Fashion Pack 229,Fashion,670.15
+P00230,Eco Books Pack 230,Books,1837.73
+P00231,Atlas Books Pro 231,Books,1329.12
+P00232,Atlas Electronics Pro 232,Electronics,45045.52
+P00233,Atlas Toys Lite 233,Toys,799.31
+P00234,Zen Automotive Pro 234,Automotive,4836.74
+P00235,Vertex Books Max 235,Books,1712.81
+P00236,Orion Books Lite 236,Books,346.31
+P00237,Classic Automotive Series 237,Automotive,4789.15
+P00238,Nova Sports Essential 238,Sports,3034.01
+P00239,Lumina Grocery Lite 239,Grocery,782.81
+P00240,Turbo Footwear Kit 240,Footwear,4637.02
+P00241,Nova Home Pro 241,Home Appliances,31695.41
+P00242,Flex Books Kit 242,Books,210.72
+P00243,Smart Home Max 243,Home Appliances,31908.27
+P00244,Flex Fashion Pro 244,Fashion,1242.74
+P00245,Vivid Fashion Pro 245,Fashion,1506.76
+P00246,Atlas Personal Edition 246,Personal Care,1224.93
+P00247,Lumina Fashion Max 247,Fashion,3843.51
+P00248,Orion Toys Series 248,Toys,1588.95
+P00249,Atlas Grocery Lite 249,Grocery,552.26
+P00250,Flex Grocery Edition 250,Grocery,598.52
+P00251,Smart Footwear Pack 251,Footwear,3563.60
+P00252,Atlas Home Pro 252,Home Appliances,22529.81
+P00253,Nova Sports Series 253,Sports,1519.09
+P00254,Urban Grocery Edition 254,Grocery,995.07
+P00255,Eco Footwear Max 255,Footwear,6266.19
+P00256,Zen Books Kit 256,Books,835.37
+P00257,Vivid Sports Max 257,Sports,6686.25
+P00258,Flex Grocery Pack 258,Grocery,66.54
+P00259,Lumina Books Lite 259,Books,971.69
+P00260,Flex Home Lite 260,Home Appliances,34346.73
+P00261,Vertex Electronics Edition 261,Electronics,20507.84
+P00262,Vertex Books Series 262,Books,318.60
+P00263,Lumina Electronics Kit 263,Electronics,39551.93
+P00264,Vertex Automotive Pack 264,Automotive,3474.48
+P00265,Eco Footwear Series 265,Footwear,2634.64
+P00266,Eco Grocery Kit 266,Grocery,862.50
+P00267,Prime Toys Edition 267,Toys,1151.49
+P00268,Flex Electronics Pack 268,Electronics,7457.36
+P00269,Prime Automotive Pro 269,Automotive,5193.69
+P00270,Zen Electronics Edition 270,Electronics,7210.17
+P00271,Flex Home Edition 271,Home Appliances,17086.61
+P00272,Nova Books Pro 272,Books,1081.10
+P00273,Aero Books Series 273,Books,1339.18
+P00274,Zen Books Edition 274,Books,1716.50
+P00275,Atlas Books Edition 275,Books,1466.94
+P00276,Eco Home Edition 276,Home Appliances,11815.22
+P00277,Smart Fashion Max 277,Fashion,1591.58
+P00278,Atlas Automotive Max 278,Automotive,8192.07
+P00279,Urban Home Pack 279,Home Appliances,27922.89
+P00280,Lumina Sports Max 280,Sports,4733.93
+P00281,Orion Personal Max 281,Personal Care,1257.39
+P00282,Smart Home Pro 282,Home Appliances,11488.15
+P00283,Vivid Personal Edition 283,Personal Care,1434.03
+P00284,Pixel Home Max 284,Home Appliances,29245.60
+P00285,Flex Home Kit 285,Home Appliances,26263.94
+P00286,Smart Toys Edition 286,Toys,426.93
+P00287,Zen Sports Series 287,Sports,3793.54
+P00288,Flex Grocery Edition 288,Grocery,613.80
+P00289,Eco Automotive Essential 289,Automotive,7856.48
+P00290,Flex Footwear Lite 290,Footwear,6006.29
+P00291,Lumina Home Max 291,Home Appliances,26880.11
+P00292,Aero Toys Pro 292,Toys,3902.28
+P00293,Classic Electronics Lite 293,Electronics,9839.39
+P00294,Eco Personal Max 294,Personal Care,107.55
+P00295,Aero Home Edition 295,Home Appliances,5651.11
+P00296,Zen Toys Essential 296,Toys,1016.50
+P00297,Classic Personal Lite 297,Personal Care,319.37
+P00298,Nova Automotive Kit 298,Automotive,9144.24
+P00299,Nova Fashion Edition 299,Fashion,3844.85
+P00300,Zen Grocery Essential 300,Grocery,462.16
+P00301,Turbo Automotive Pack 301,Automotive,6908.64
+P00302,Zen Toys Edition 302,Toys,631.51
+P00303,Vivid Grocery Pro 303,Grocery,688.80
+P00304,Nova Electronics Series 304,Electronics,11804.40
+P00305,Vertex Footwear Kit 305,Footwear,2458.23
+P00306,Urban Grocery Series 306,Grocery,314.03
+P00307,Prime Books Kit 307,Books,1530.98
+P00308,Lumina Sports Lite 308,Sports,5511.79
+P00309,Nova Home Max 309,Home Appliances,14378.83
+P00310,Pixel Electronics Lite 310,Electronics,23526.96
+P00311,Orion Automotive Max 311,Automotive,6723.62
+P00312,Aero Grocery Lite 312,Grocery,146.03
+P00313,Atlas Fashion Lite 313,Fashion,4065.21
+P00314,Urban Home Pack 314,Home Appliances,15734.54
+P00315,Pixel Sports Max 315,Sports,6052.16
+P00316,Lumina Grocery Lite 316,Grocery,753.96
+P00317,Urban Fashion Pack 317,Fashion,657.98
+P00318,Eco Personal Pack 318,Personal Care,590.54
+P00319,Vertex Home Kit 319,Home Appliances,5807.39
+P00320,Pixel Automotive Kit 320,Automotive,2715.61
+P00321,Atlas Books Lite 321,Books,1007.31
+P00322,Pixel Personal Essential 322,Personal Care,310.34
+P00323,Turbo Books Series 323,Books,1317.06
+P00324,Classic Personal Essential 324,Personal Care,809.27
+P00325,Flex Books Pro 325,Books,218.57
+P00326,Pixel Home Max 326,Home Appliances,22846.59
+P00327,Nova Books Essential 327,Books,1222.61
+P00328,Smart Automotive Essential 328,Automotive,9950.64
+P00329,Nova Toys Essential 329,Toys,772.27
+P00330,Smart Home Edition 330,Home Appliances,28534.06
+P00331,Nova Toys Pack 331,Toys,2654.28
+P00332,Prime Books Lite 332,Books,1982.32
+P00333,Orion Personal Max 333,Personal Care,1384.11
+P00334,Nova Personal Lite 334,Personal Care,1049.46
+P00335,Orion Home Pro 335,Home Appliances,12074.42
+P00336,Eco Grocery Lite 336,Grocery,732.68
+P00337,Eco Home Lite 337,Home Appliances,20728.69
+P00338,Orion Grocery Kit 338,Grocery,967.86
+P00339,Pixel Automotive Pro 339,Automotive,10777.09
+P00340,Smart Toys Kit 340,Toys,1630.38
+P00341,Zen Toys Lite 341,Toys,554.12
+P00342,Prime Electronics Pack 342,Electronics,18766.29
+P00343,Vivid Personal Pack 343,Personal Care,1425.74
+P00344,Eco Footwear Edition 344,Footwear,6998.85
+P00345,Urban Grocery Series 345,Grocery,849.03
+P00346,Eco Personal Max 346,Personal Care,1325.95
+P00347,Prime Fashion Essential 347,Fashion,1061.56
+P00348,Lumina Electronics Essential 348,Electronics,21131.07
+P00349,Atlas Automotive Pack 349,Automotive,4630.46
+P00350,Vivid Toys Pack 350,Toys,1107.84
+P00351,Atlas Personal Essential 351,Personal Care,1048.63
+P00352,Zen Grocery Kit 352,Grocery,785.11
+P00353,Eco Footwear Pro 353,Footwear,5707.18
+P00354,Flex Electronics Edition 354,Electronics,32416.77
+P00355,Classic Toys Edition 355,Toys,3433.43
+P00356,Eco Fashion Max 356,Fashion,1581.12
+P00357,Lumina Home Essential 357,Home Appliances,33166.33
+P00358,Zen Personal Series 358,Personal Care,1401.66
+P00359,Lumina Sports Max 359,Sports,5218.27
+P00360,Aero Home Lite 360,Home Appliances,13621.01
+P00361,Smart Home Kit 361,Home Appliances,29498.83
+P00362,Vivid Fashion Kit 362,Fashion,479.02
+P00363,Aero Books Edition 363,Books,978.91
+P00364,Eco Electronics Max 364,Electronics,13539.27
+P00365,Lumina Home Pro 365,Home Appliances,27344.10
+P00366,Zen Home Essential 366,Home Appliances,2432.03
+P00367,Vivid Home Series 367,Home Appliances,4590.34
+P00368,Eco Toys Pro 368,Toys,2384.18
+P00369,Flex Sports Pack 369,Sports,414.02
+P00370,Pixel Automotive Lite 370,Automotive,6539.23
+P00371,Aero Home Max 371,Home Appliances,33405.41
+P00372,Orion Books Lite 372,Books,229.54
+P00373,Flex Grocery Edition 373,Grocery,755.41
+P00374,Urban Personal Lite 374,Personal Care,436.58
+P00375,Smart Fashion Kit 375,Fashion,507.38
+P00376,Vivid Books Kit 376,Books,1963.52
+P00377,Atlas Fashion Series 377,Fashion,595.57
+P00378,Vertex Grocery Series 378,Grocery,229.33
+P00379,Orion Personal Essential 379,Personal Care,1405.72
+P00380,Vertex Grocery Pro 380,Grocery,70.30
+P00381,Nova Personal Lite 381,Personal Care,1305.99
+P00382,Flex Grocery Max 382,Grocery,154.99
+P00383,Orion Sports Lite 383,Sports,7534.75
+P00384,Vivid Fashion Lite 384,Fashion,2631.16
+P00385,Pixel Toys Max 385,Toys,1212.54
+P00386,Prime Home Pro 386,Home Appliances,15525.76
+P00387,Smart Personal Pro 387,Personal Care,242.64
+P00388,Zen Grocery Kit 388,Grocery,464.86
+P00389,Nova Books Lite 389,Books,799.36
+P00390,Turbo Automotive Series 390,Automotive,14972.18
+P00391,Orion Home Lite 391,Home Appliances,23753.49
+P00392,Prime Toys Series 392,Toys,3243.16
+P00393,Atlas Fashion Series 393,Fashion,4287.75
+P00394,Flex Fashion Lite 394,Fashion,615.00
+P00395,Nova Sports Kit 395,Sports,9513.88
+P00396,Flex Books Essential 396,Books,1904.32
+P00397,Flex Home Max 397,Home Appliances,20427.12
+P00398,Lumina Personal Edition 398,Personal Care,1008.39
+P00399,Vivid Electronics Max 399,Electronics,37047.07
+P00400,Turbo Toys Essential 400,Toys,646.49
+P00401,Classic Footwear Essential 401,Footwear,6975.37
+P00402,Pixel Footwear Essential 402,Footwear,1296.14
+P00403,Atlas Fashion Edition 403,Fashion,4522.79
+P00404,Pixel Personal Pro 404,Personal Care,1033.98
+P00405,Prime Grocery Lite 405,Grocery,855.71
+P00406,Vertex Toys Kit 406,Toys,1051.12
+P00407,Aero Footwear Lite 407,Footwear,5636.42
+P00408,Atlas Toys Kit 408,Toys,2373.65
+P00409,Pixel Automotive Pro 409,Automotive,13320.57
+P00410,Vivid Sports Max 410,Sports,9995.11
+P00411,Pixel Sports Kit 411,Sports,8303.06
+P00412,Atlas Personal Essential 412,Personal Care,998.27
+P00413,Prime Toys Kit 413,Toys,1508.16
+P00414,Nova Sports Edition 414,Sports,5226.49
+P00415,Prime Toys Kit 415,Toys,780.46
+P00416,Lumina Personal Lite 416,Personal Care,1407.63
+P00417,Pixel Toys Pro 417,Toys,3599.72
+P00418,Turbo Footwear Kit 418,Footwear,4626.87
+P00419,Pixel Grocery Kit 419,Grocery,627.31
+P00420,Eco Automotive Kit 420,Automotive,14152.30
+P00421,Smart Automotive Series 421,Automotive,10948.18
+P00422,Turbo Electronics Pack 422,Electronics,4978.92
+P00423,Aero Automotive Essential 423,Automotive,6539.51
+P00424,Classic Toys Essential 424,Toys,1299.75
+P00425,Orion Footwear Pro 425,Footwear,5729.47
+P00426,Nova Books Kit 426,Books,284.00
+P00427,Atlas Books Pack 427,Books,917.90
+P00428,Smart Personal Lite 428,Personal Care,948.32
+P00429,Eco Personal Lite 429,Personal Care,1464.52
+P00430,Smart Toys Pack 430,Toys,2333.27
+P00431,Atlas Books Pack 431,Books,375.67
+P00432,Classic Fashion Max 432,Fashion,754.01
+P00433,Prime Automotive Lite 433,Automotive,6561.95
+P00434,Vertex Automotive Kit 434,Automotive,10955.36
+P00435,Atlas Books Essential 435,Books,1991.54
+P00436,Pixel Grocery Max 436,Grocery,514.46
+P00437,Lumina Toys Pack 437,Toys,1936.48
+P00438,Nova Automotive Pro 438,Automotive,5615.98
+P00439,Vivid Books Pro 439,Books,1254.41
+P00440,Urban Toys Max 440,Toys,230.07
+P00441,Flex Fashion Max 441,Fashion,4446.54
+P00442,Nova Personal Pack 442,Personal Care,162.34
+P00443,Pixel Personal Max 443,Personal Care,873.51
+P00444,Turbo Toys Edition 444,Toys,1910.35
+P00445,Orion Fashion Lite 445,Fashion,4881.89
+P00446,Flex Personal Kit 446,Personal Care,879.96
+P00447,Orion Footwear Series 447,Footwear,4415.01
+P00448,Smart Electronics Essential 448,Electronics,2905.78
+P00449,Eco Toys Lite 449,Toys,1935.56
+P00450,Orion Automotive Pro 450,Automotive,5117.69
+P00451,Vivid Automotive Pro 451,Automotive,5376.42
+P00452,Flex Books Lite 452,Books,1658.14
+P00453,Classic Home Series 453,Home Appliances,34311.51
+P00454,Lumina Automotive Series 454,Automotive,7380.56
+P00455,Orion Automotive Kit 455,Automotive,7465.51
+P00456,Urban Footwear Pack 456,Footwear,704.21
+P00457,Zen Electronics Kit 457,Electronics,22609.89
+P00458,Zen Sports Essential 458,Sports,7027.80
+P00459,Vertex Electronics Lite 459,Electronics,35581.99
+P00460,Smart Books Kit 460,Books,1121.13
+P00461,Smart Books Lite 461,Books,1836.43
+P00462,Vertex Grocery Pack 462,Grocery,623.11
+P00463,Lumina Grocery Pro 463,Grocery,573.00
+P00464,Vivid Grocery Lite 464,Grocery,714.52
+P00465,Turbo Books Pro 465,Books,794.29
+P00466,Orion Home Max 466,Home Appliances,20411.91
+P00467,Eco Personal Pro 467,Personal Care,1435.45
+P00468,Pixel Electronics Lite 468,Electronics,15092.89
+P00469,Vivid Books Pack 469,Books,1362.55
+P00470,Turbo Footwear Pro 470,Footwear,5880.69
+P00471,Lumina Fashion Pack 471,Fashion,812.36
+P00472,Lumina Electronics Pack 472,Electronics,33820.86
+P00473,Smart Electronics Essential 473,Electronics,5908.70
+P00474,Eco Home Series 474,Home Appliances,24095.77
+P00475,Prime Toys Max 475,Toys,3915.06
+P00476,Vertex Books Pro 476,Books,1032.28
+P00477,Nova Personal Edition 477,Personal Care,498.58
+P00478,Nova Automotive Kit 478,Automotive,3866.19
+P00479,Prime Sports Series 479,Sports,8868.55
+P00480,Prime Sports Pro 480,Sports,7963.42
+P00481,Urban Electronics Lite 481,Electronics,1453.09
+P00482,Vivid Grocery Kit 482,Grocery,472.99
+P00483,Vertex Toys Edition 483,Toys,1977.48
+P00484,Atlas Personal Pro 484,Personal Care,326.49
+P00485,Smart Fashion Pro 485,Fashion,365.20
+P00486,Vertex Automotive Kit 486,Automotive,10277.82
+P00487,Orion Automotive Max 487,Automotive,12913.12
+P00488,Orion Toys Edition 488,Toys,1445.12
+P00489,Vivid Fashion Lite 489,Fashion,4912.92
+P00490,Orion Footwear Pack 490,Footwear,543.40
+P00491,Smart Books Pro 491,Books,1543.45
+P00492,Aero Automotive Pro 492,Automotive,10980.80
+P00493,Nova Personal Edition 493,Personal Care,1068.88
+P00494,Orion Books Pro 494,Books,716.59
+P00495,Classic Home Lite 495,Home Appliances,22642.93
+P00496,Eco Automotive Essential 496,Automotive,3701.31
+P00497,Flex Fashion Max 497,Fashion,2437.40
+P00498,Vertex Toys Pack 498,Toys,3667.63
+P00499,Pixel Automotive Essential 499,Automotive,13159.46
+P00500,Pixel Toys Edition 500,Toys,2873.31

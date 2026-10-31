@@ -1,0 +1,87 @@
+
+========================================================================================
+OPTIMIZED sorted by tottime
+========================================================================================
+
+         322723 function calls (322711 primitive calls) in 0.193 seconds
+
+   Ordered by: internal time
+   List reduced from 81 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.072    0.072    0.191    0.191 /home/user/week4_performance_optimization/saleslens/optimized.py:68(analyze_dataset)
+    13503    0.030    0.000    0.052    0.000 /usr/local/lib/python3.13/csv.py:174(__next__)
+   110958    0.023    0.000    0.023    0.000 {method 'get' of 'dict' objects}
+    13506    0.014    0.000    0.014    0.000 {built-in method builtins.next}
+    37577    0.010    0.000    0.010    0.000 {method 'add' of 'set' objects}
+        1    0.005    0.005    0.018    0.018 /home/user/week4_performance_optimization/saleslens/optimized.py:53(_load_customers)
+    35024    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+     5511    0.004    0.000    0.005    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:220(<lambda>)
+    27003    0.004    0.000    0.004    0.000 /usr/local/lib/python3.13/csv.py:160(fieldnames)
+        3    0.003    0.001    0.010    0.003 /usr/local/lib/python3.13/heapq.py:523(nlargest)
+    10000    0.003    0.000    0.003    0.000 {built-in method builtins.all}
+    10000    0.002    0.000    0.002    0.000 {built-in method fromisoformat}
+        1    0.002    0.002    0.193    0.193 /home/user/week4_performance_optimization/saleslens/optimized.py:290(analyze_directory)
+    10500    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+     2906    0.002    0.000    0.002    0.000 {built-in method _collections._count_elements}
+     2908    0.001    0.000    0.006    0.000 /usr/local/lib/python3.13/collections/__init__.py:676(update)
+     3379    0.001    0.000    0.003    0.000 {built-in method builtins.isinstance}
+    13905    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:280(__init__)
+     2911    0.001    0.000    0.001    0.000 {built-in method builtins.sorted}
+     9969    0.001    0.000    0.001    0.000 /usr/local/lib/python3.13/collections/__init__.py:616(__missing__)
+        1    0.001    0.001    0.004    0.004 /home/user/week4_performance_optimization/saleslens/optimized.py:33(_load_products)
+     2383    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:203(<lambda>)
+     2906    0.001    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+     2906    0.001    0.000    0.001    0.000 <frozen abc>:117(__instancecheck__)
+     1549    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:228(<genexpr>)
+        3    0.000    0.000    0.002    0.001 {built-in method builtins.sum}
+      500    0.000    0.000    0.000    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:186(<lambda>)
+     1651    0.000    0.000    0.000    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:229(<genexpr>)
+       22    0.000    0.000    0.000    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:232(<genexpr>)
+      114    0.000    0.000    0.000    0.000 {built-in method _heapq.heapreplace}
+
+
+
+
+========================================================================================
+OPTIMIZED sorted by cumulative
+========================================================================================
+
+         322723 function calls (322711 primitive calls) in 0.193 seconds
+
+   Ordered by: cumulative time
+   List reduced from 81 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.193    0.193 /home/user/week4_performance_optimization/tools/run_profiling.py:174(<lambda>)
+        1    0.002    0.002    0.193    0.193 /home/user/week4_performance_optimization/saleslens/optimized.py:290(analyze_directory)
+        1    0.072    0.072    0.191    0.191 /home/user/week4_performance_optimization/saleslens/optimized.py:68(analyze_dataset)
+    13503    0.030    0.000    0.052    0.000 /usr/local/lib/python3.13/csv.py:174(__next__)
+   110958    0.023    0.000    0.023    0.000 {method 'get' of 'dict' objects}
+        1    0.005    0.005    0.018    0.018 /home/user/week4_performance_optimization/saleslens/optimized.py:53(_load_customers)
+    13506    0.014    0.000    0.014    0.000 {built-in method builtins.next}
+        3    0.003    0.001    0.010    0.003 /usr/local/lib/python3.13/heapq.py:523(nlargest)
+    37577    0.010    0.000    0.010    0.000 {method 'add' of 'set' objects}
+     2908    0.001    0.000    0.006    0.000 /usr/local/lib/python3.13/collections/__init__.py:676(update)
+     5511    0.004    0.000    0.005    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:220(<lambda>)
+    35024    0.005    0.000    0.005    0.000 {built-in method builtins.len}
+    27003    0.004    0.000    0.004    0.000 /usr/local/lib/python3.13/csv.py:160(fieldnames)
+        1    0.001    0.001    0.004    0.004 /home/user/week4_performance_optimization/saleslens/optimized.py:33(_load_products)
+     3379    0.001    0.000    0.003    0.000 {built-in method builtins.isinstance}
+    10000    0.003    0.000    0.003    0.000 {built-in method builtins.all}
+    10000    0.002    0.000    0.002    0.000 {built-in method fromisoformat}
+    10500    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+     2906    0.002    0.000    0.002    0.000 {built-in method _collections._count_elements}
+        3    0.000    0.000    0.002    0.001 {built-in method builtins.sum}
+     2906    0.001    0.000    0.001    0.000 <frozen abc>:117(__instancecheck__)
+    13905    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:280(__init__)
+     2383    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:203(<lambda>)
+     2911    0.001    0.000    0.001    0.000 {built-in method builtins.sorted}
+     9969    0.001    0.000    0.001    0.000 /usr/local/lib/python3.13/collections/__init__.py:616(__missing__)
+     1549    0.001    0.000    0.001    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:228(<genexpr>)
+     2906    0.001    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+      500    0.000    0.000    0.000    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:186(<lambda>)
+      114    0.000    0.000    0.000    0.000 {built-in method _heapq.heapreplace}
+     1651    0.000    0.000    0.000    0.000 /home/user/week4_performance_optimization/saleslens/optimized.py:229(<genexpr>)
+
+

@@ -1,0 +1,1 @@
+# SalesLens runtime dependencies: none (Python 3.10+ standard library only).

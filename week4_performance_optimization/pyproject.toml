@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saleslens-week4"
+version = "1.0.0"
+description = "Week 4 performance-optimization case study: baseline vs optimized retail analytics"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["saleslens*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "correctness: hand-checked functional expectations",
+    "parity: baseline and optimized engines must return identical results",
+]

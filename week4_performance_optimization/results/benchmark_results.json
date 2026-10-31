@@ -1,0 +1,349 @@
+{
+  "environment": {
+    "recorded_at_utc": "2026-10-31T16:42:59.592381+00:00",
+    "python_version": "3.13.16",
+    "python_implementation": "CPython",
+    "platform": "Linux-6.1.158+-x86_64-with-glibc2.41",
+    "machine": "x86_64",
+    "processor": "not reported",
+    "cpu_count": 2,
+    "executable": "/usr/local/bin/python3"
+  },
+  "configuration": {
+    "sizes": [
+      2000,
+      5000,
+      10000
+    ],
+    "seed": 42,
+    "baseline_repeats": 3,
+    "optimized_repeats": 5,
+    "timing": "time.perf_counter wall time; time.process_time CPU time",
+    "memory": "tracemalloc peak Python allocations in separate runs"
+  },
+  "benchmarks": [
+    {
+      "rows_requested": 2000,
+      "data_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_2000",
+      "metadata": {
+        "output_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_2000",
+        "seed": 42,
+        "transaction_rows": 2000,
+        "regular_rows": 1998,
+        "invalid_rows_injected": 2,
+        "order_count_generated": 1127,
+        "product_count": 500,
+        "customer_count": 3000,
+        "files": {
+          "products": "/home/user/week4_performance_optimization/data/benchmark/rows_2000/products.csv",
+          "customers": "/home/user/week4_performance_optimization/data/benchmark/rows_2000/customers.csv",
+          "transactions": "/home/user/week4_performance_optimization/data/benchmark/rows_2000/transactions.csv"
+        },
+        "file_sizes_bytes": {
+          "products": 24286,
+          "customers": 84291,
+          "transactions": 119012
+        }
+      },
+      "result_summary": {
+        "valid_rows": 1998,
+        "invalid_rows": 2,
+        "order_count": 1127,
+        "customer_count": 890,
+        "net_revenue": 19892261.07
+      },
+      "parity": "PASS",
+      "baseline": {
+        "wall": {
+          "runs_seconds": [
+            0.40275318199996946,
+            0.40452054299998963,
+            0.4100932759999978
+          ],
+          "min_seconds": 0.40275318199996946,
+          "median_seconds": 0.40452054299998963,
+          "mean_seconds": 0.40578900033331894,
+          "stdev_seconds": 0.00383092456036016
+        },
+        "cpu": {
+          "runs_seconds": [
+            0.40272032,
+            0.40445611699999995,
+            0.409164061
+          ],
+          "min_seconds": 0.40272032,
+          "median_seconds": 0.40445611699999995,
+          "mean_seconds": 0.40544683266666665,
+          "stdev_seconds": 0.003334154715651992
+        },
+        "tracemalloc": {
+          "current_bytes": 125324,
+          "peak_bytes": 4517419
+        }
+      },
+      "optimized": {
+        "wall": {
+          "runs_seconds": [
+            0.021038485999952172,
+            0.021114844999829074,
+            0.022880509000060556,
+            0.021069188999945254,
+            0.02377430599995023
+          ],
+          "min_seconds": 0.021038485999952172,
+          "median_seconds": 0.021114844999829074,
+          "mean_seconds": 0.021975466999947457,
+          "stdev_seconds": 0.00127425136890525
+        },
+        "cpu": {
+          "runs_seconds": [
+            0.021031299999999975,
+            0.021108531999999958,
+            0.02287420700000009,
+            0.021062985000000145,
+            0.02376895499999998
+          ],
+          "min_seconds": 0.021031299999999975,
+          "median_seconds": 0.021108531999999958,
+          "mean_seconds": 0.02196919580000003,
+          "stdev_seconds": 0.0012747340087675891
+        },
+        "tracemalloc": {
+          "current_bytes": 161841,
+          "peak_bytes": 2000962
+        }
+      },
+      "speedup_median": 19.158110940585367,
+      "speedup_conservative_min_vs_max": 16.94069143388718,
+      "median_time_saved_percent": 94.78027868665507,
+      "peak_memory_change_percent": -55.70563633791774
+    },
+    {
+      "rows_requested": 5000,
+      "data_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_5000",
+      "metadata": {
+        "output_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_5000",
+        "seed": 42,
+        "transaction_rows": 5000,
+        "regular_rows": 4995,
+        "invalid_rows_injected": 5,
+        "order_count_generated": 2821,
+        "product_count": 500,
+        "customer_count": 3000,
+        "files": {
+          "products": "/home/user/week4_performance_optimization/data/benchmark/rows_5000/products.csv",
+          "customers": "/home/user/week4_performance_optimization/data/benchmark/rows_5000/customers.csv",
+          "transactions": "/home/user/week4_performance_optimization/data/benchmark/rows_5000/transactions.csv"
+        },
+        "file_sizes_bytes": {
+          "products": 24286,
+          "customers": 84291,
+          "transactions": 297326
+        }
+      },
+      "result_summary": {
+        "valid_rows": 4995,
+        "invalid_rows": 5,
+        "order_count": 2821,
+        "customer_count": 1697,
+        "net_revenue": 49797267.12
+      },
+      "parity": "PASS",
+      "baseline": {
+        "wall": {
+          "runs_seconds": [
+            1.7184995280001658,
+            1.7614036889999625,
+            1.7250981429999683
+          ],
+          "min_seconds": 1.7184995280001658,
+          "median_seconds": 1.7250981429999683,
+          "mean_seconds": 1.7350004533333656,
+          "stdev_seconds": 0.02310267452543746
+        },
+        "cpu": {
+          "runs_seconds": [
+            1.7182160939999997,
+            1.760932134,
+            1.7249780890000004
+          ],
+          "min_seconds": 1.7182160939999997,
+          "median_seconds": 1.7249780890000004,
+          "mean_seconds": 1.7347087723333334,
+          "stdev_seconds": 0.022960393440022035
+        },
+        "tracemalloc": {
+          "current_bytes": 176061,
+          "peak_bytes": 9099029
+        }
+      },
+      "optimized": {
+        "wall": {
+          "runs_seconds": [
+            0.041153775000111636,
+            0.0406059010001627,
+            0.04307496799992805,
+            0.04627641100000801,
+            0.0436821770001643
+          ],
+          "min_seconds": 0.0406059010001627,
+          "median_seconds": 0.04307496799992805,
+          "mean_seconds": 0.04295864640007494,
+          "stdev_seconds": 0.0022548592456980987
+        },
+        "cpu": {
+          "runs_seconds": [
+            0.04114721199999938,
+            0.040599909999999184,
+            0.043067606000001035,
+            0.0462708350000014,
+            0.04367549500000045
+          ],
+          "min_seconds": 0.040599909999999184,
+          "median_seconds": 0.043067606000001035,
+          "mean_seconds": 0.04295221160000029,
+          "stdev_seconds": 0.002255053346856425
+        },
+        "tracemalloc": {
+          "current_bytes": 161841,
+          "peak_bytes": 3629959
+        }
+      },
+      "speedup_median": 40.04873881746934,
+      "speedup_conservative_min_vs_max": 37.135540351214104,
+      "median_time_saved_percent": 97.50304246893339,
+      "peak_memory_change_percent": -60.10608384696873
+    },
+    {
+      "rows_requested": 10000,
+      "data_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_10000",
+      "metadata": {
+        "output_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_10000",
+        "seed": 42,
+        "transaction_rows": 10000,
+        "regular_rows": 9990,
+        "invalid_rows_injected": 10,
+        "order_count_generated": 5617,
+        "product_count": 500,
+        "customer_count": 3000,
+        "files": {
+          "products": "/home/user/week4_performance_optimization/data/benchmark/rows_10000/products.csv",
+          "customers": "/home/user/week4_performance_optimization/data/benchmark/rows_10000/customers.csv",
+          "transactions": "/home/user/week4_performance_optimization/data/benchmark/rows_10000/transactions.csv"
+        },
+        "file_sizes_bytes": {
+          "products": 24286,
+          "customers": 84291,
+          "transactions": 594564
+        }
+      },
+      "result_summary": {
+        "valid_rows": 9990,
+        "invalid_rows": 10,
+        "order_count": 5617,
+        "customer_count": 2383,
+        "net_revenue": 102073944.29
+      },
+      "parity": "PASS",
+      "baseline": {
+        "wall": {
+          "runs_seconds": [
+            6.086020215999952,
+            6.312523413000008,
+            6.177985354999919
+          ],
+          "min_seconds": 6.086020215999952,
+          "median_seconds": 6.177985354999919,
+          "mean_seconds": 6.1921763279999595,
+          "stdev_seconds": 0.11391647092860409
+        },
+        "cpu": {
+          "runs_seconds": [
+            6.0844320960000005,
+            6.310216148999999,
+            6.176245830999999
+          ],
+          "min_seconds": 6.0844320960000005,
+          "median_seconds": 6.176245830999999,
+          "mean_seconds": 6.190298025333333,
+          "stdev_seconds": 0.11354606013183734
+        },
+        "tracemalloc": {
+          "current_bytes": 176061,
+          "peak_bytes": 16523427
+        }
+      },
+      "optimized": {
+        "wall": {
+          "runs_seconds": [
+            0.08226789099990128,
+            0.08114847599995301,
+            0.07392111299986937,
+            0.07610886799989203,
+            0.07735172200000306
+          ],
+          "min_seconds": 0.07392111299986937,
+          "median_seconds": 0.07735172200000306,
+          "mean_seconds": 0.07815961399992374,
+          "stdev_seconds": 0.0034869175259606895
+        },
+        "cpu": {
+          "runs_seconds": [
+            0.08226283100000131,
+            0.08114125400000205,
+            0.0739152169999997,
+            0.07610300200000353,
+            0.07734448000000071
+          ],
+          "min_seconds": 0.0739152169999997,
+          "median_seconds": 0.07734448000000071,
+          "mean_seconds": 0.07815335680000146,
+          "stdev_seconds": 0.003486953302169702
+        },
+        "tracemalloc": {
+          "current_bytes": 161782,
+          "peak_bytes": 6110584
+        }
+      },
+      "speedup_median": 79.86875011004506,
+      "speedup_conservative_min_vs_max": 73.97807506706663,
+      "median_time_saved_percent": 98.74794585038306,
+      "peak_memory_change_percent": -63.01866434850349
+    }
+  ],
+  "optimized_only": {
+    "rows_requested": 100000,
+    "data_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_100000",
+    "metadata": {
+      "output_dir": "/home/user/week4_performance_optimization/data/benchmark/rows_100000",
+      "seed": 42,
+      "transaction_rows": 100000,
+      "regular_rows": 99900,
+      "invalid_rows_injected": 100,
+      "order_count_generated": 56199,
+      "product_count": 500,
+      "customer_count": 3000,
+      "files": {
+        "products": "/home/user/week4_performance_optimization/data/benchmark/rows_100000/products.csv",
+        "customers": "/home/user/week4_performance_optimization/data/benchmark/rows_100000/customers.csv",
+        "transactions": "/home/user/week4_performance_optimization/data/benchmark/rows_100000/transactions.csv"
+      },
+      "file_sizes_bytes": {
+        "products": 24286,
+        "customers": 84291,
+        "transactions": 5944458
+      }
+    },
+    "wall_seconds": 0.8013937390001047,
+    "cpu_seconds": 0.8012171709999976,
+    "tracemalloc": {
+      "current_bytes": 161841,
+      "peak_bytes": 41274768
+    },
+    "result_summary": {
+      "valid_rows": 99900,
+      "order_count": 56199,
+      "net_revenue": 1006708170.7
+    }
+  }
+}

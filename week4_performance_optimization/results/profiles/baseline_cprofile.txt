@@ -1,0 +1,87 @@
+
+========================================================================================
+BASELINE sorted by tottime
+========================================================================================
+
+         13833156 function calls (13833002 primitive calls) in 10.229 seconds
+
+   Ordered by: internal time
+   List reduced from 321 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    19988    2.461    0.000    4.536    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:43(_find_by_id)
+        1    2.203    2.203    2.224    2.224 /home/user/week4_performance_optimization/saleslens/baseline.py:169(_co_purchase_pairs)
+ 13172264    2.105    0.000    2.105    0.000 {method 'get' of 'dict' objects}
+     9990    1.324    0.000    1.324    0.000 {method 'count' of 'list' objects}
+    40002    0.556    0.000    0.563    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:66(_distinct_add)
+        1    0.511    0.511    0.517    0.517 /home/user/week4_performance_optimization/saleslens/baseline.py:153(_customer_order_counts)
+    49950    0.501    0.000    0.502    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:51(_add_to_bucket)
+    10000    0.107    0.000    0.201    0.000 /usr/local/lib/python3.13/_strptime.py:516(_strptime)
+    10000    0.077    0.000    4.970    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:72(_enrich_transaction)
+    10028    0.053    0.000    0.053    0.000 {method 'strftime' of 'datetime.date' objects}
+        3    0.049    0.016    0.079    0.026 /home/user/week4_performance_optimization/saleslens/baseline.py:25(_read_csv_rows)
+        1    0.045    0.045   10.225   10.225 /home/user/week4_performance_optimization/saleslens/baseline.py:202(analyze_dataset)
+    80000    0.024    0.000    0.037    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:82(<genexpr>)
+    10000    0.021    0.000    0.222    0.000 /usr/local/lib/python3.13/_strptime.py:786(_strptime_datetime)
+    10013    0.017    0.000    0.054    0.000 {built-in method builtins.any}
+    64193    0.017    0.000    0.017    0.000 {method 'append' of 'list' objects}
+    94516    0.015    0.000    0.015    0.000 {method 'strip' of 'str' objects}
+    10000    0.014    0.000    0.239    0.000 {built-in method strptime}
+    10000    0.013    0.000    0.013    0.000 {method 'match' of 're.Pattern' objects}
+    10002    0.011    0.000    0.017    0.000 /usr/local/lib/python3.13/locale.py:381(normalize)
+     9998    0.010    0.000    0.010    0.000 {method 'groupdict' of 're.Match' objects}
+50047/50011    0.008    0.000    0.009    0.000 {built-in method builtins.len}
+        1    0.008    0.008    1.332    1.332 /home/user/week4_performance_optimization/saleslens/baseline.py:143(_count_duplicate_ids)
+    10002    0.007    0.000    0.037    0.000 /usr/local/lib/python3.13/locale.py:576(getlocale)
+    10002    0.007    0.000    0.007    0.000 {built-in method _locale.setlocale}
+    10002    0.006    0.000    0.023    0.000 /usr/local/lib/python3.13/locale.py:464(_parse_localename)
+    19997    0.006    0.000    0.006    0.000 {method 'toordinal' of 'datetime.date' objects}
+    13506    0.006    0.000    0.006    0.000 {method 'split' of 'str' objects}
+    10002    0.005    0.000    0.042    0.000 /usr/local/lib/python3.13/_strptime.py:29(_getlang)
+        1    0.004    0.004    0.006    0.006 {method 'sort' of 'list' objects}
+
+
+
+
+========================================================================================
+BASELINE sorted by cumulative
+========================================================================================
+
+         13833156 function calls (13833002 primitive calls) in 10.229 seconds
+
+   Ordered by: cumulative time
+   List reduced from 321 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.229   10.229 /home/user/week4_performance_optimization/tools/run_profiling.py:170(<lambda>)
+        1    0.003    0.003   10.229   10.229 /home/user/week4_performance_optimization/saleslens/baseline.py:328(analyze_directory)
+        1    0.045    0.045   10.225   10.225 /home/user/week4_performance_optimization/saleslens/baseline.py:202(analyze_dataset)
+    10000    0.077    0.000    4.970    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:72(_enrich_transaction)
+    19988    2.461    0.000    4.536    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:43(_find_by_id)
+        1    2.203    2.203    2.224    2.224 /home/user/week4_performance_optimization/saleslens/baseline.py:169(_co_purchase_pairs)
+ 13172264    2.105    0.000    2.105    0.000 {method 'get' of 'dict' objects}
+        1    0.008    0.008    1.332    1.332 /home/user/week4_performance_optimization/saleslens/baseline.py:143(_count_duplicate_ids)
+     9990    1.324    0.000    1.324    0.000 {method 'count' of 'list' objects}
+    40002    0.556    0.000    0.563    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:66(_distinct_add)
+        1    0.511    0.511    0.517    0.517 /home/user/week4_performance_optimization/saleslens/baseline.py:153(_customer_order_counts)
+    49950    0.501    0.000    0.502    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:51(_add_to_bucket)
+    10000    0.014    0.000    0.239    0.000 {built-in method strptime}
+    10000    0.021    0.000    0.222    0.000 /usr/local/lib/python3.13/_strptime.py:786(_strptime_datetime)
+    10000    0.107    0.000    0.201    0.000 /usr/local/lib/python3.13/_strptime.py:516(_strptime)
+        3    0.049    0.016    0.079    0.026 /home/user/week4_performance_optimization/saleslens/baseline.py:25(_read_csv_rows)
+    10013    0.017    0.000    0.054    0.000 {built-in method builtins.any}
+    10028    0.053    0.000    0.053    0.000 {method 'strftime' of 'datetime.date' objects}
+    10002    0.005    0.000    0.042    0.000 /usr/local/lib/python3.13/_strptime.py:29(_getlang)
+    10002    0.007    0.000    0.037    0.000 /usr/local/lib/python3.13/locale.py:576(getlocale)
+    80000    0.024    0.000    0.037    0.000 /home/user/week4_performance_optimization/saleslens/baseline.py:82(<genexpr>)
+    10002    0.006    0.000    0.023    0.000 /usr/local/lib/python3.13/locale.py:464(_parse_localename)
+    64193    0.017    0.000    0.017    0.000 {method 'append' of 'list' objects}
+    10002    0.011    0.000    0.017    0.000 /usr/local/lib/python3.13/locale.py:381(normalize)
+    94516    0.015    0.000    0.015    0.000 {method 'strip' of 'str' objects}
+    10000    0.013    0.000    0.013    0.000 {method 'match' of 're.Pattern' objects}
+     9998    0.010    0.000    0.010    0.000 {method 'groupdict' of 're.Match' objects}
+50047/50011    0.008    0.000    0.009    0.000 {built-in method builtins.len}
+    10002    0.007    0.000    0.007    0.000 {built-in method _locale.setlocale}
+    19997    0.006    0.000    0.006    0.000 {method 'toordinal' of 'datetime.date' objects}
+
+

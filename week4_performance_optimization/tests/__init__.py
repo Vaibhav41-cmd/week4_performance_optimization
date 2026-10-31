@@ -1,0 +1,1 @@
+"""SalesLens automated tests."""
